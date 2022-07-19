@@ -74,15 +74,7 @@ for column in ["CreditScore"]:
         df.drop(index=outliers,axis=0,inplace=True)
         print(column , group, outliers)   
 
-# a = 1
-# for i in range(int(df["CreditScore"].min()), int(df["CreditScore"].max())):
-#     df["best_range"] = df["CreditScore"] > i
-#     corr = df["best_range"].corr(df["Exited"])
-#     print(i, corr)
-    # if a > abs(corr):
-    #     a = corr
-    #     best_range = i
-    #     print(i, corr)
+
 
 
 
